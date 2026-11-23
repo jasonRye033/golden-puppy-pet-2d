@@ -2,7 +2,6 @@
 
 这是基于 Electron + Canvas 2D Retina (2x) + `uiohook-napi` 打造的**独立 2D 精绘平涂卡通版**金毛小狗桌面宠物，支持 **macOS (Apple Silicon & Intel)** 与 **Windows**。
 
-> 原 3D 皮克斯版已完整保留在 `../golden-puppy-pet` 目录中，两个版本互不干扰。
 
 ---
 
