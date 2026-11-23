@@ -1,0 +1,20 @@
+{
+  "headWidth": 480,
+  "headHeight": 356,
+  "leftEye": {
+    "cx": 167.18,
+    "cy": 157.61,
+    "rx": 27.0,
+    "ry": 25.0
+  },
+  "rightEye": {
+    "cx": 311.96,
+    "cy": 157.54,
+    "rx": 27.0,
+    "ry": 25.0
+  },
+  "torsoWidth": 307,
+  "torsoHeight": 326,
+  "tailWidth": 157,
+  "tailHeight": 201
+}
