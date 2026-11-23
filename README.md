@@ -57,8 +57,16 @@ npm run demo
 
 ---
 
-## macOS 权限说明
+## macOS 首次安装与权限说明
 
+### 1. 如果从微信 / 浏览器下载后提示「已损坏，无法打开」
+因为应用未购买 Apple 付费开发者证书公证（Notarization），通过微信或浏览器传输时 macOS 会自动给文件打上 `com.apple.quarantine` 隔离标记。将 `金毛桌宠2D.app` 拖入「应用程序 (`/Applications`)」后，打开「终端 (Terminal)」执行以下一行命令即可永久解除：
+
+```bash
+sudo xattr -rd com.apple.quarantine "/Applications/金毛桌宠2D.app"
+```
+
+### 2. 全局键鼠响应权限
 由于需要全局监听键盘与鼠标动作以驱动小狗同步敲击，首次在 macOS 运行时请在 **系统设置 → 隐私与安全性** 中为终端（开发模式）或 `金毛桌宠2D.app`（安装包模式）开启：
 - **辅助功能 (Accessibility)**
 - **输入监控 (Input Monitoring)**

@@ -25,8 +25,10 @@
     "asarUnpack": [
       "node_modules/uiohook-napi/**"
     ],
+    "afterSign": "scripts/after-sign.js",
     "mac": {
       "category": "public.app-category.utilities",
+      "identity": "-",
       "target": [
         {
           "target": "dmg",
